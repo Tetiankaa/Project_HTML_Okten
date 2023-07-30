@@ -1,0 +1,308 @@
+body{
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+#start_building{
+  width: 100vw;
+  height: 100vh;
+}
+#breakpoint{
+  width: 100vw;
+  height: 4vh;
+  background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#breakpoint > p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#start_building header{
+  width: 100vw;
+  height: 6vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#start_building header img{
+  width: 182px;
+  height: 27px;
+}
+#start_building a{
+  text-decoration: none;
+  color: #848895;
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 56px;
+  line-height: 27.3px;
+}
+#start_building section{
+  width: 100vw;
+  height: 77vh;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.for_developers{
+  color: white;
+  font-size: 70px;
+  font-weight: 400;
+  letter-spacing: 0.68px;
+  margin: 0;
+}
+.for_everyone{
+  color: white;
+  font-size: 68px;
+  font-weight: 400;
+  letter-spacing: 0.68px;
+  margin: 0;
+}
+.short_description{
+  color: white;
+  font-size: 21px;
+  font-weight: 400;
+  width: 21%;
+  margin: 55px 0 55px 0;
+}
+.start_button{
+  width: 181px;
+  height: 52px;
+  border-radius: 36px;
+  border: 1px solid #000;
+  background:  linear-gradient(152deg, #8C01FA 0%, #000 100%);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.readDocs_button{
+  width: 146px;
+  height: 52px;
+  border-radius: 36px;
+  border: 1px solid #FFF;
+  background: #000;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+#start_building footer{
+  width: 100vw;
+  height: 13vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#start_building footer>p{
+  color: #618ADC;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin: 0 0 32px 0;
+}
+#start_building footer div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#start_building footer img{
+  margin-left: 40px;
+}
+/* next page - Join a community */
+#community{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.join_community{
+  width:50vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: end;
+}
+.join_community p{
+  color: white;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 200px  234px 0 0;
+}
+#community aside{
+  width: 50vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.style_paragraph{
+  color: #C4C4C4;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.active_accounts{
+  font-size: 101px;
+  font-weight: 400;
+  background: linear-gradient(228deg, #19FB9B 0%, #8C01FA 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 25%;
+  margin-bottom: 0;
+}
+.nfts_minted{
+  font-size: 106px;
+  font-weight: 400;
+  background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 22%;
+  margin-bottom: 0;
+}
+.average_cost{
+  font-size: 110px;
+  font-weight: 400;
+  background: linear-gradient(222deg, #00FFBD 0%, #025B8C 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 35%;
+  margin-bottom: 0;
+}
+/* next page - Set of techniques */
+#set_of_techniques{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+#set_of_techniques aside{
+  width: 70vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  position: relative;
+}
+.width35_color{
+  width: 35%;
+  height: 100vh;
+  background-color: black;
+}
+.width30_color{
+  width: 30%;
+  height: 100vh;
+  background-color: black;
+}
+#made_for_mass_adoption{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.made_for{
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0 105px 0 0;
+}
+.mass_adoption{
+  color: #FFF;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.live_data{
+  font-family: 'Roboto', sans-serif;
+  color: #C4C4C4;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 195px 0 0;
+}
+.fast_block, .scalable_block{
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+.decentralized,.efficient{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.fast_block,.decentralized{
+  margin-bottom: 71px;
+}
+#fast_scalable{
+  padding-left: 137px;
+  box-sizing: border-box;
+}
+.white_28px_400w{
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 33.04px;
+}
+.white_26px_400w{
+  color: #FFF;
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 28px;
+}
+.fast_desc{
+  color: #C4C4C4;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 27.3px;
+}
+.transactions_per_second, .total_transactions,.validator,.net_carbon{
+  color: #C4C4C4;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+#decentralized_efficient{
+  position: absolute;
+  right: 50px;
+  top: -80px;
+}
+.scalable_desc, .decentralized_desc, .efficient_desc{
+  color: #C4C4C4;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 27.3px;
+}
+.number_of_validator_nodes{
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.efficient_desc a{
+  color: #19FB9B;
+}
