@@ -1,12 +1,12 @@
 body{
   margin: 0;
   font-family: Helvetica, sans-serif;
+  background-color: black;
 }
-#start_building{
+#main-container{
   width: 100vw;
-  height: 100vh;
 }
-#breakpoint{
+#head-title{
   width: 100vw;
   height: 4vh;
   background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
@@ -14,64 +14,61 @@ body{
   justify-content: center;
   align-items: center;
 }
-#breakpoint > p{
+#head-title > p{
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   font-weight: 400;
   text-transform: uppercase;
 }
-#start_building header{
+#main-container header{
   width: 100vw;
   height: 6vh;
-  background-color: black;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-#start_building header img{
+#main-container header img{
   width: 182px;
   height: 27px;
 }
-#start_building a{
+#main-container a{
   text-decoration: none;
   color: #848895;
   font-size: 17px;
   font-weight: 400;
-  margin-left: 56px;
   line-height: 27.3px;
+  margin-left: 56px;
 }
-#start_building section{
+#main-container section{
   width: 100vw;
   height: 77vh;
-  background-color: black;
-
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.for_developers{
+.section-heading-developers{
   color: white;
   font-size: 70px;
   font-weight: 400;
   letter-spacing: 0.68px;
   margin: 0;
 }
-.for_everyone{
+.section-heading-everyone{
   color: white;
   font-size: 68px;
   font-weight: 400;
   letter-spacing: 0.68px;
   margin: 0;
 }
-.short_description{
+.section-description{
   color: white;
   font-size: 21px;
   font-weight: 400;
   width: 21%;
   margin: 55px 0 55px 0;
 }
-.start_button{
+.start-button{
   width: 181px;
   height: 52px;
   border-radius: 36px;
@@ -83,7 +80,7 @@ body{
   font-weight: 400;
   text-transform: uppercase;
 }
-.readDocs_button{
+.read-docs-button{
   width: 146px;
   height: 52px;
   border-radius: 36px;
@@ -96,16 +93,20 @@ body{
   text-transform: uppercase;
   margin-left: 15px;
 }
-#start_building footer{
+.start-button:hover,.read-docs-button:hover{
+  background: white;
+  color: black;
+  cursor: pointer;
+  transform: translate(0,-3px);
+}
+#main-container footer{
   width: 100vw;
-  height: 13vh;
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-#start_building footer>p{
+#main-container footer>p{
   color: #618ADC;
   font-size: 15px;
   font-weight: 400;
@@ -113,53 +114,45 @@ body{
   text-transform: uppercase;
   margin: 0 0 32px 0;
 }
-#start_building footer div{
+#main-container footer div{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#start_building footer img{
-  margin-left: 40px;
+  column-gap: 40px;
 }
 /* next page - Join a community */
-#community{
+#container-community{
   width: 100vw;
-  height: 100vh;
   display: flex;
 }
-.join_community{
+.quote{
   width:50vw;
-  height: 100vh;
-  background-color: black;
   display: flex;
   justify-content: end;
 }
-.join_community p{
+.quote p{
   color: white;
   font-size: 38px;
   font-weight: 400;
   letter-spacing: 1px;
   margin: 200px  234px 0 0;
 }
-#community aside{
+#container-community aside{
   width: 50vw;
-  height: 100vh;
-  background-color: black;
   display: flex;
-  justify-content: start;
   flex-direction: column;
 }
-.margin_top_45px{
+.statistics-section{
   margin-top: 45px;
 }
-.style_paragraph{
+.statistics-desc{
   color: #C4C4C4;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
 }
-.active_accounts{
+.number-of-active-accounts{
   font-size: 101px;
   font-weight: 400;
   background: linear-gradient(228deg, #19FB9B 0%, #8C01FA 100%);
@@ -168,7 +161,7 @@ body{
   -webkit-text-fill-color: transparent;
   margin-bottom: 0;
 }
-.nfts_minted{
+.number-of-nfts-minted{
   font-size: 106px;
   font-weight: 400;
   background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
@@ -177,7 +170,7 @@ body{
   -webkit-text-fill-color: transparent;
   margin-bottom: 0;
 }
-.average_cost{
+.average-cost{
   font-size: 110px;
   font-weight: 400;
   background: linear-gradient(222deg, #00FFBD 0%, #025B8C 100%);
@@ -187,41 +180,34 @@ body{
   margin: 45px 0 0 0;
 }
 /* next page - Set of techniques */
-#set_of_techniques{
+#set-of-techniques{
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
 }
 #main{
   width: 70vw;
-  background-color: black;
   display: flex;
   position: relative;
 }
-.width35_color{
+.width-of-article{
   width: 23.3vw;
-  background-color: black;
 }
-.width30_color{
-  width: 23.3vw;
-  background-color: black;
-}
-#made_for_mass_adoption{
+#quotation{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-.made_for{
+.quotation-first-part{
   color: #FFF;
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 1px;
   margin: 0 105px 0 0;
 }
-.mass_adoption{
+.quotation-second-part{
   color: #FFF;
   font-size: 38px;
   font-weight: 400;
@@ -236,45 +222,57 @@ body{
   text-transform: uppercase;
   margin: 0 195px 0 0;
 }
-.fast_block, .scalable_block{
+#container-fast-scalable{
+  padding-left: 137px;
+  box-sizing: border-box;
+}
+.block-fast, .block-scalable{
   display: flex;
   flex-direction: column;
   width: 55%;
 }
-.decentralized,.efficient{
+#container-decentralized-efficient{
+  position: absolute;
+  right: 50px;
+  top: -80px;
+}
+.block-decentralized,.block-efficient{
   display: flex;
   flex-direction: column;
   width: 40%;
 }
-.fast_block,.decentralized{
+.block-fast,.block-decentralized{
   margin-bottom: 71px;
 }
-#fast_scalable{
-  padding-left: 137px;
-  box-sizing: border-box;
-}
-.white_28px_400w{
+.white-text-large{
   color: #FFF;
   font-size: 28px;
   font-weight: 400;
   margin-bottom: 10px;
   line-height: 33.04px;
 }
-.white_26px_400w{
+.white-text-medium{
   color: #FFF;
   font-size: 26px;
   font-weight: 400;
   margin-bottom: 10px;
   line-height: 28px;
 }
-.fast_desc{
+.desc-of-block-fast{
   color: #C4C4C4;
   font-size: 17px;
   font-weight: 400;
   margin: 0;
   line-height: 27.3px;
 }
-.transactions_per_second, .total_transactions,.validator,.net_carbon{
+.desc-of-block{
+  color: #C4C4C4;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 27.3px;
+}
+.text-roboto-uppercase{
   color: #C4C4C4;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -282,42 +280,28 @@ body{
   text-transform: uppercase;
   margin: 0;
 }
-#decentralized_efficient{
-  position: absolute;
-  right: 50px;
-  top: -80px;
-}
-.scalable_desc, .decentralized_desc, .efficient_desc{
-  color: #C4C4C4;
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 10px;
-  line-height: 27.3px;
-}
 .number_of_validator_nodes{
   color: #FFF;
   font-size: 25px;
   font-weight: 400;
   margin-bottom: 10px;
 }
-.efficient_desc a{
+.block-efficient .desc-of-block a{
   color: #19FB9B;
 }
 /* next page - Build for growth. */
-#build_for_growth{
+#growth_section{
   width: 100vw;
 }
-#build_for_growth>section{
+#growth_section>section{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
   flex-direction: column;
 }
-#heading{
+#main-heading{
   width: 55vw;
   height: 10vh;
-  background-color: black;
   display: flex;
   justify-content:space-around;
   align-items: center;
@@ -329,7 +313,7 @@ body{
   line-height: 46.2px;
   letter-spacing: 1px;
 }
-#build_for_growth button{
+.buttons button{
   border-radius: 15px;
   border: 1px solid #111;
   background: #111;
@@ -339,40 +323,60 @@ body{
   line-height: 27.3px;
   margin-right:16px;
 }
-#build_for_growth div > .active{
+.button_NFTs{
+  width: 64px;
+  height: 48px;
+}
+.button_defi{
+  width: 62px;
+  height: 48px;
+}
+.button_payments{
+  width: 98px;
+  height: 48px;
+}
+.button_gaming{
+  width: 83px;
+  height: 48px;
+}
+.button_DAOs{
+  width: 71px;
+  height: 48px;
+}
+#growth_section div > .active{
   border: 1px solid #A962FF;
 }
-#build_for_growth div button:hover{
+#growth_section div button:hover{
   cursor: pointer;
   background-color: #343434;
 }
-#NFTs{
+#section-NFTs{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .back_image{
   width: 21vw;
-  height: 420px;
+  height: 40.5vh;
   background-image: url("images/man_with_phone.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.more_about_NFTs{
+.content_NFTs{
   width: 21vw;
-  height: 420px;
+  height: 40.5vh;
   background-color: #111;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   padding-left: 48px;
 }
-.more_about_NFTs> img{
-  width: 240px;
-  height: 53px;
+.content_NFTs> img{
+  width: 23vh;
+  height: 51vh;
   padding-top: 95px;
 }
-.more_about_NFTs > p{
+.content_NFTs > p{
   color: white;
   font-size: 21px;
   font-weight: 400;
@@ -380,7 +384,7 @@ body{
   width: 440px;
   padding-right: 63px;
 }
-.more_about_NFTs a{
+.content_NFTs a{
   text-decoration: none;
   color: #A962FF;
   font-size: 20px;
@@ -399,20 +403,19 @@ body{
   margin-top: 20px;
 }
 /* next page - Join a thriving community.*/
-#join{
+#container-join-community{
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction:column ;
-  background-color: black;
 }
 .heading_join_community{
   width: 70vw;
   height: 30vh;
-  background-color: black;
   display: flex;
   align-items: end;
+  justify-content: center;
 }
 .heading_join_community h2{
   color: #FFF;
@@ -425,16 +428,15 @@ body{
 #images_community {
   width: 70vw;
   display: flex;
-  background-color: black;
 }
 .flex_column_margin{
   display: flex;
   flex-direction: column;
   margin: 0 20px 0 20px;
 }
-#join aside, #solana_attendees,#solana_participants {
-  width: 300px;
-  height: 200px;
+.card {
+  width: 11vw;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -442,10 +444,22 @@ body{
   border-radius: 8px;
   background: #19161C;
 }
-#solana_attendees, #solana_participants{
+.small-image{
+  width: 11vw;
+  height: 20vh;
+}
+.image_speaker{
+  width: 11vw;
+  height: 42vh;
+}
+.image_journalists{
+  width: 22vw;
+  height: 42vh;
+}
+.image-people-at-computers, .margin-card{
   margin-bottom: 20px;
 }
-.dev_48000{
+.developers-count{
   color: #19FB9B;
   font-size: 42px;
   font-weight: 400;
@@ -453,7 +467,7 @@ body{
   letter-spacing: 1px;
   margin: 0;
 }
-.paragraph_solana_breakpoint {
+.card-content {
   color: #BABABA;
   font-size: 12px;
   font-weight: 400;
@@ -461,7 +475,7 @@ body{
   line-height: 15.36px;
   text-align: center;
 }
-.attendees_3800{
+.attendees-count{
   color: #FFEB3B;
   font-size: 42px;
   font-weight: 400;
@@ -469,7 +483,7 @@ body{
   letter-spacing: 1px;
   margin: 0;
 }
-.participants_11000{
+.participants-count{
   color: #F087FF;
   font-size: 37px;
   font-weight: 400;
@@ -477,24 +491,23 @@ body{
   letter-spacing: 1px;
   margin: 0;
 }
-#join_thousands_of_creators{
+#solana_creators{
   width: 100vw;
   height: 50vh;
-  background-color: black;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.paragraph_join_thousands{
+.solana-creators-paragraph{
   color: #FFF;
   font-size: 38px;
   font-weight: 400;
   line-height: 46.2px;
   letter-spacing: 1px;
 }
-#join_thousands_of_creators button{
+#solana_creators button{
   width: 175px;
   height: 50px;
   border-radius: 36px;
@@ -506,7 +519,7 @@ body{
   line-height: 20px;
   text-transform: uppercase;
 }
-#join_thousands_of_creators button:hover{
+#solana_creators button:hover{
   background: white;
   color: black;
   cursor: pointer;
@@ -516,12 +529,21 @@ body{
 #footer{
   width: 100vw;
   height: 50vh;
-  background-color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-#section_left{
+#footer_container{
+  width: 60vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid #262626;
+  border-radius: 12px 12px 0 0;
+  background: #000508;
+}
+#footer_section_left{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -546,25 +568,31 @@ body{
   background: #848895;
   margin-right: 10px;
 }
-#section_right{
-display: flex;
+#reddit{
+  border-radius: 45%;
 }
-#section_right div{
+#footer_section_right{
+  display: flex;
+}
+#footer_section_right div{
   margin-right: 68px;
 }
-.size16_400_h18{
+.title-white{
   font-weight: 400;
   font-size: 16px;
   color: white;
   line-height: 18.72px;
 }
-.size15_400_h27{
-font-size: 15px;
+.item-gray{
+  font-size: 15px;
   font-weight: 400;
   line-height: 18.72px;
   color: #848895;
 }
-.eng{
+.container_language{
+  margin-top: 15px
+}
+.language{
   color: #848895;
   text-align: center;
   font-size: 15px;
@@ -573,4 +601,3 @@ font-size: 15px;
   margin-left: 4px;
   display: inline;
 }
-

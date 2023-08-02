@@ -1,0 +1,150 @@
+@media screen and (max-width: 1600px) {
+  #head-title{
+    text-align: center;
+  }
+  #main-container header{
+    height: 10vh;
+  }
+  #main-container header img{
+    width: 140px;
+    height: 15px;
+  }
+  #main-container a{
+    font-size: 12px;
+    margin: 0;
+    font-weight: 600;
+  }
+  #main-container section{
+    width: 100vw;
+    height: 60vh;
+    text-align: center;
+  }
+  .section-heading-developers, .section-heading-everyone{
+    font-size: 50px;
+  }
+  .section-description{
+    width: 60%;
+  }
+  #main-container footer{
+    width: 100vw;
+    height: 30vh;
+  }
+  #main-container footer>p{
+    text-align: center;
+  }
+  #main-container footer div{
+    width: 100vw;
+    flex-wrap: wrap;
+  }
+  /* next page - Join a community */
+  #container-community{
+    flex-direction: column;
+  }
+  .quote{
+    width: 100vw;
+    height: 50vh;
+    justify-content: flex-start;
+    padding-left: 50px;
+  }
+  #container-community aside{
+    width: 100vw;
+  }
+  .number-of-active-accounts, .number-of-nfts-minted, .average-cost{
+    font-size: 70px;
+  }
+  .statistics-section{
+    padding-left: 50px;
+  }
+  /* next page - Set of techniques */
+ #set-of-techniques{
+   width: 100vw;
+   height: 130vh;
+ }
+  #main, #quotation, #container-fast-scalable, #container-decentralized-efficient {
+   width: 100vw;
+   flex-direction: column;
+ }
+  #quotation{
+    align-items: flex-start;
+  }
+  .quotation-first-part,
+  .quotation-second-part,
+  .white-text-large,
+  .white-text-medium,
+  .live_data,
+  .block-fast,
+  .block-scalable,
+  .block-decentralized,
+  .block-efficient {
+    margin: 10px 20px;
+  }
+  .block-fast, .block-scalable, .block-decentralized, .block-efficient{
+    width: 60vw;
+    background-color: #363333;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .quotation-first-part, .live_data{
+    margin-bottom: 0;
+}
+  .white-text-large{
+    font-size: 25px;
+  }
+  .white-text-medium{
+    font-size: 20px;
+  }
+  #container-fast-scalable {
+    box-sizing: border-box;
+    padding-left: 0;
+  }
+  #container-decentralized-efficient{
+    position: static;
+  }
+  /* next page - Build for growth. */
+  #main-heading{
+    width: 100vw;
+    height: 20vh;
+}
+  .buttons{
+    flex-wrap: wrap;
+}
+  #growth_section button{
+    margin-bottom: 10px;
+  }
+  .heading_build_for_growth{
+    font-size: 35px;
+    padding-left: 20px;
+  }
+  #section-NFTs{
+    flex-direction: column-reverse;
+  }
+  .back_image{
+    width: 50vw;
+  }
+  .content_NFTs{
+    width: 47vw;
+    height: 35vh;
+  }
+  #images{
+    width: 50vw;
+  }
+  .content_NFTs > p{
+    width: 75%;
+  }
+  .content_NFTs> img{
+    padding-top: 25px;
+  }
+  /* next page - Join a thriving community.*/
+  #images_community, .heading_join_community{
+    display: none;
+}
+  .solana-creators-paragraph{
+    font-size: 30px;
+  }
+  /* footer */
+#footer_container{
+  width: 100vw;
+  height: 30vh;
+  padding-left: 30px;
+}
+}
