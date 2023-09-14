@@ -405,12 +405,19 @@ body{
   margin-top: 20px;
 }
 /* next page - Join a thriving community.*/
-#container-join-community{
+#community-div{
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#container-join-community{
+  width: 62vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction:column ;
+  overflow: hidden;
 }
 .heading_join_community{
   width: 70vw;
@@ -431,10 +438,16 @@ body{
   width: 70vw;
   display: flex;
 }
-.flex_column_margin{
+
+.flex_column_margin {
   display: flex;
   flex-direction: column;
-  margin: 0 20px 0 20px;
+  margin: 0 15px 0 15px;
+
+  align-items: center;
+  overflow: hidden;
+  max-width: 12vw;
+  text-align: center;
 }
 .card {
   width: 11vw;
@@ -446,18 +459,10 @@ body{
   border-radius: 8px;
   background: #19161C;
 }
-.small-image{
-  width: 11vw;
-  height: 20vh;
+.small-image {
+  width: 10vw;
 }
-.image_speaker{
-  width: 11vw;
-  height: 42vh;
-}
-.image_journalists{
-  width: 22vw;
-  height: 42vh;
-}
+
 .image-people-at-computers, .margin-card{
   margin-bottom: 20px;
 }
@@ -476,6 +481,9 @@ body{
   text-transform: uppercase;
   line-height: 15.36px;
   text-align: center;
+}
+#men-with-comp{
+min-height: 20%;
 }
 .attendees-count{
   color: #FFEB3B;
